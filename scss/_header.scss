@@ -48,7 +48,7 @@ $nav-hover-border-left: #ec5B29;
 
         // the new arrow that appears if there is secondary nav when you hover over the main nav
        li:hover ul:after {
-          background: url("#{$asset-path}patterns/arrow-up-smaller.png") no-repeat;
+          background: url(ud-asset-url('patterns/arrow-up-smaller.png')) no-repeat;
           content: '';
           display: block;
           height: 8px;
@@ -98,7 +98,7 @@ $nav-hover-border-left: #ec5B29;
 #main-navigation-link { display: none; }
 
 .banner .nav-toggle {
-  background-image: url(#{$asset-path}icons/navigation-menu-plain.svg);
+  background-image: url(ud-asset-url('icons/navigation-menu-plain.svg'));
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 25px auto;
@@ -117,7 +117,7 @@ $nav-hover-border-left: #ec5B29;
 
 .opera-mini .banner .nav-toggle,
 .no-svg .banner .nav-toggle {
-  background-image: url(#{$asset-path}icons/navigation-menu-plain.png);
+  background-image: url(ud-asset-url('icons/navigation-menu-plain.png'));
 }
 
 .banner nav ul {
@@ -175,7 +175,7 @@ header nav ul.active {
 }
 
 #menu.active:after {
-  background-image: url(#{$asset-path}patterns/nav-arrow.svg);
+  background-image: url(ud-asset-url('patterns/nav-arrow.svg'));
   background-repeat: no-repeat;
   background-position: 50% 26px;
   content: "";
@@ -192,7 +192,7 @@ header nav ul.active {
 .no-svg, 
 .opera-mini {
   #menu.active:after {
-    background-image: url(#{$asset-path}patterns/nav-arrow.png);
+    background-image: url(ud-asset-url('patterns/nav-arrow.png'));
   }
 } // End responsive navigation
 
@@ -283,7 +283,7 @@ header nav ul.active {
   }
 
   .logo-ubuntu {
-    background: url("#{$asset-path}ubuntu-logo.png") no-repeat scroll 0 10px transparent;
+    background: url(ud-asset-url(ubuntu-logo.png)) no-repeat scroll 0 10px transparent;
     display: inline-block;
     float: left;
     font-size: 18px;
@@ -322,7 +322,7 @@ header nav ul.active {
   
   .nav-primary.nav-right {
     .logo-ubuntu {
-      background-image: url("#{$asset-path}logos/logo-ubuntu-white.svg");
+      background-image: url(ud-asset-url(logos/logo-ubuntu-white.svg));
       background-size: 107px 25px;
       float: left;
     }
@@ -405,7 +405,7 @@ header nav ul.active {
 
 html.no-svg, .opera-mini {
   .banner .nav-primary.nav-right .logo-ubuntu {
-    background-image: url("#{$asset-path}logos/logo-ubuntu-white.png");
+    background-image: url(ud-asset-url(logos/logo-ubuntu-white.png));
   }
 }
 
@@ -415,7 +415,7 @@ html.no-svg, .opera-mini {
   .banner {
     .nav-primary.nav-right .logo-ubuntu,
     .logo-ubuntu {
-      background: url('#{$asset-path}logos/logo-ubuntu_cof-white_orange-hex.svg') 0 50% no-repeat;
+      background: url(ud-asset-url(logos/logo-ubuntu_cof-white_orange-hex.svg)) 0 50% no-repeat;
       background-size: 20px 20px;
       min-width: 0;
       width: 38px;
@@ -430,7 +430,7 @@ html.no-svg, .opera-mini {
 html.no-svg, 
 .opera-mini {
   .banner .logo-ubuntu {
-    background-image: url('#{$asset-path}logos/logo-ubuntu_cof-white_orange-hex.png');
+    background-image: url(ud-asset-url(logos/logo-ubuntu_cof-white_orange-hex.png));
   }
 }
 
@@ -653,7 +653,7 @@ html.no-svg,
         }
 
         .after {
-          background-image: url(#{$asset-path}patterns/nav-down-arrow.svg);
+          background-image: url(ud-asset-url('patterns/nav-down-arrow.svg'));
           background-position: center center;
           background-repeat: no-repeat;
           background-size: 18px;
@@ -692,7 +692,7 @@ html.no-svg,
       .breadcrumb li a:after,
       .breadcrumb li a:link:after,
       .breadcrumb li a:visited:after {
-        background-image: url(#{$asset-path}patterns/nav-up-arrow.svg);
+        background-image: url(ud-asset-url('patterns/nav-up-arrow.svg'));
       }
       
       .breadcrumb li + li a.after {
@@ -700,7 +700,7 @@ html.no-svg,
       }
       
       .breadcrumb li .after {
-        background-image: url(#{$asset-path}patterns/nav-up-arrow.svg);
+        background-image: url(ud-asset-url('patterns/nav-up-arrow.svg'));
         margin-top: -7px;
       }
       
@@ -728,7 +728,7 @@ html.no-svg,
       display: block;
 
       a {
-        background-image: url("#{$asset-path}icons/navigation-menu-plain.svg");
+        background-image: url(ud-asset-url('icons/navigation-menu-plain.svg'));
         background-position: center center;
         background-repeat: no-repeat;
         background-size: 25px auto;
@@ -743,54 +743,54 @@ html.no-svg,
   .no-svg, .opera-mini {
   .nav-secondary ul.breadcrumb {
       li .after {
-        background-image: url(#{$asset-path}patterns/nav-down-arrow.png);
+        background-image: url(ud-asset-url('patterns/nav-down-arrow.png'));
       }
       
       &.open {
         ul.breadcrumb li a:after,
         ul.breadcrumb li a:link:after,
         ul.breadcrumb li a:visited:after {
-          background-image: url(#{$asset-path}patterns/nav-up-arrow.png);
+          background-image: url(ud-asset-url('patterns/nav-up-arrow.png'));
         }
         
         ul.breadcrumb li .after {
-          background-image: url(#{$asset-path}patterns/nav-up-arrow.png);
+          background-image: url(ud-asset-url('patterns/nav-up-arrow.png'));
         }
       }
     }
     
     .banner .nav-primary #google-appliance-search-form button[type="submit"] {
-      background-image: url("#{$asset-path}search-black.png");
+      background-image: url(ud-asset-url('search-black.png'));
     }
   }
 
   .no-svg, .opera-mini {
     .nav-secondary ul.breadcrumb {
       li .after {
-        background-image: url(#{$asset-path}patterns/nav-down-arrow.png);
+        background-image: url(ud-asset-url('patterns/nav-down-arrow.png'));
       }
       
       &.open {
         ul.breadcrumb li a:after,
         ul.breadcrumb li a:link:after,
         ul.breadcrumb li a:visited:after {
-          background-image: url(#{$asset-path}patterns/nav-up-arrow.png);
+          background-image: url(ud-asset-url('patterns/nav-up-arrow.png'));
         }
         
         ul.breadcrumb li .after{
-          background-image: url(#{$asset-path}patterns/nav-up-arrow.png);
+          background-image: url(ud-asset-url('patterns/nav-up-arrow.png'));
         }
       }
     }
     
     .banner .nav-primary #google-appliance-search-form button[type="submit"] {
-      background-image: url("#{$asset-path}search-black.png");
+      background-image: url(ud-asset-url('search-black.png'));
     }
   }
 
   .banner {
     .nav-toggle {
-      background-image: url("#{$asset-path}icons/navigation-menu-plain.svg");
+      background-image: url(ud-asset-url('icons/navigation-menu-plain.svg'));
       background-position: center center;
       background-repeat: no-repeat;
       background-size: 25px auto;
@@ -806,7 +806,7 @@ html.no-svg,
 
   .no-svg, .opera-mini {
     .banner .nav-toggle {
-      background-image: url("#{$asset-path}icons/navigation-menu-plain.png");
+      background-image: url(ud-asset-url('icons/navigation-menu-plain.png'));
     }
   }
 
@@ -925,4 +925,3 @@ html.no-svg,
 }
 
 .lt-ie8 .banner .nav-primary li:hover ul { display: none; }
-

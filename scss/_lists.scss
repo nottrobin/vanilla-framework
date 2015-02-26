@@ -41,13 +41,13 @@ nav .list a {
   padding-left: 25px;
 }
 
-.list-ubuntu li { background-image: url('#{$asset-path}patterns/tick-orange.svg'); }
+.list-ubuntu li { background-image: url(ud-asset-url(patterns/tick-orange.svg)); }
 
-.list-canonical li { background-image: url('#{$asset-path}patterns/tick-midaubergine.svg'); }
+.list-canonical li { background-image: url(ud-asset-url(patterns/tick-midaubergine.svg)); }
 
-.list-warm li { background-image: url('#{$asset-path}patterns/tick-warmgrey.svg'); }
+.list-warm li { background-image: url(ud-asset-url(patterns/tick-warmgrey.svg)); }
 
-.list-dark li { background-image: url('#{$asset-path}patterns/tick-darkaubergine.svg'); }
+.list-dark li { background-image: url(ud-asset-url(patterns/tick-darkaubergine.svg)); }
 
 .vertical-divider .list-canonical li,
 .vertical-divider .list-ubuntu li {
@@ -57,19 +57,19 @@ nav .list a {
 html.no-svg,
 .opera-mini {
   .list-ubuntu li {
-    background-image: url('#{$asset-path}patterns/tick-orange.png');
+    background-image: url(ud-asset-url(patterns/tick-orange.png));
   }
 
   .list-canonical li {
-    background-image: url('#{$asset-path}patterns/tick-midaubergine.png');
+    background-image: url(ud-asset-url(patterns/tick-midaubergine.png));
   }
 
   .list-warm li {
-    background-image: url('#{$asset-path}patterns/tick-warmgrey.png');
+    background-image: url(ud-asset-url(patterns/tick-warmgrey.png));
   }
 
   .list-dark li {
-    background-image: url('#{$asset-path}patterns/tick-darkaubergine.png');
+    background-image: url(ud-asset-url(patterns/tick-darkaubergine.png));
   }
 }
 

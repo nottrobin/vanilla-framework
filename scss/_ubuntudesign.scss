@@ -1,14 +1,32 @@
 // import required files
 
-/// Ubuntudesign base element styles
-@import 'ubuntudesign-base';
+/// Import settings
+@import 'global-settings';
 
-/// 
-@import 'core-mixins';
+/// Ubuntudesign base element styles
+@import 'base';
+
 @import 'core-grid';
 @import 'core-grid-tablet';
 @import 'core-grid-desktop';
-
 @import 'core-templates';
-
-@import 'patterns/patterns';
+@import 'structure';
+@import 'helpers';
+@import 'typography';
+@import 'header';
+@import 'search';
+@import 'footer';
+@import 'contextual-footer';
+@import 'buttons';
+@import 'forms';
+@import 'rows';
+@import 'image-centered';
+@import 'boxes';
+@import 'arrows';
+@import 'lists';
+@import 'inline-logos';
+@import 'blockquotes';
+@import 'tabbed-content';
+@import 'vertical-divider';
+@import 'slider';
+@import 'tooltips';

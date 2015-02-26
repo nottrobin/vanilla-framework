@@ -1,4 +1,4 @@
-@import '../_core-constants';
+@import 'core-constants';
 
 .left { float: left; }
 
@@ -27,13 +27,13 @@ img {
 a.external {
   background-size: .7em .7em;
   padding-right: .9em;
-  background-image: url('#{$asset-path}external-link-orange.svg');
+  background-image: url(ud-asset-url(external-link-orange.svg));
   background-position: right 1px;
   background-repeat: no-repeat;
 }
 
 .opera-mini a.external,
-.no-svg a.external { background-image: url('#{$asset-path}external-link-orange.png'); }
+.no-svg a.external { background-image: url(ud-asset-url(external-link-orange.png)); }
 
 .text-center,
 .align-center { text-align: center; }

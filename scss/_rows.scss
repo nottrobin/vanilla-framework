@@ -44,7 +44,7 @@
 // ----------------------------------------------------------
 .row-background {
   color: white;
-  background: url("#{$asset-path}backgrounds/image-background-wallpaper.jpg") no-repeat scroll 50% 50% #4b1827;
+  background: url(ud-asset-url(backgrounds/image-background-wallpaper.jpg)) no-repeat scroll 50% 50% #4b1827;
 
   a.alternate {
     color: white;
@@ -70,7 +70,7 @@
 
 .strip-dark {
   background-color: ud-color(dark-aubergine);
-  background-image: url("#{$asset-path}backgrounds/background-grid.png");
+  background-image: url(ud-asset-url(backgrounds/background-grid.png));
   background-repeat: repeat;
   color: white;
 

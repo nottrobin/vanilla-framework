@@ -6,21 +6,21 @@
 
 .arrow-up {
   @extend %arrow;
-  background: url('#{$asset-path}patterns/arrow-up.png') 0 0 no-repeat;
+  background: url(ud-asset-url(patterns/arrow-up.png)) 0 0 no-repeat;
   left: 20px;
   top: -11px;
 }
 
 .arrow-down {
   @extend %arrow;
-  background: url('#{$asset-path}patterns/arrow-down.png') 0 0 no-repeat;
+  background: url(ud-asset-url(patterns/arrow-down.png)) 0 0 no-repeat;
   bottom: -11px;
   right: 20px;
 }
 
 .arrow-right {
   @extend %arrow;
-  background: url('#{$asset-path}patterns/arrow-right.png') 0 0 no-repeat;
+  background: url(ud-asset-url(patterns/arrow-right.png)) 0 0 no-repeat;
   height: 18px;
   right: -11px;
   top: 20px;
@@ -29,7 +29,7 @@
 
 .arrow-left {
   @extend %arrow;
-  background: url('#{$asset-path}patterns/arrow-left.png') 0 0 no-repeat;
+  background: url(ud-asset-url(patterns/arrow-left.png)) 0 0 no-repeat;
   bottom: 20px;
   height: 18px;
   left: -11px;

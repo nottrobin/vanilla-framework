@@ -29,7 +29,7 @@
 
 .box-textured {
   box-shadow: 0 2px 2px 0 #c2c2c2;
-  background: url("#{$asset-path}patterns/grey-textured-background.jpg");
+  background: url(ud-asset-url(patterns/grey-textured-background.jpg));
   border: 0;
 }
 
@@ -61,7 +61,7 @@
 
 .box-padded-feature {
   border-radius: 4px;
-  background: url("#{$asset-path}patterns/soft-centre-bkg.gif") repeat scroll 0 0 #a09f9f;
+  background: url(ud-asset-url(patterns/soft-centre-bkg.gif)) repeat scroll 0 0 #a09f9f;
   border: 0;
   margin-bottom: 20px;
   padding: 11px 5px 6px;
@@ -186,7 +186,7 @@
   }
 
   .content-cat {
-    background: url("#{$asset-path}icons/icon-resource-hub-icon-document.png") left center no-repeat;
+    background: url(ud-asset-url(icons/icon-resource-hub-icon-document.png)) left center no-repeat;
     color: #aea79f;
     font-size: 14px;
     letter-spacing: 1px;
@@ -198,7 +198,7 @@
   }
 
   .content-cat-webinar {
-    background: url("#{$asset-path}icons/icon-resource-hub-webinar.png") left center no-repeat;
+    background: url(ud-asset-url(icons/icon-resource-hub-webinar.png)) left center no-repeat;
   }
 
   &.box-image-centered div + span img {

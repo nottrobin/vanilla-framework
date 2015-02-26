@@ -41,7 +41,7 @@ blockquote {
   &.quote-canonical,
   &.quote-canonical-white {
     @include ud-set-font-size(16);
-    background: url("#{$asset-path}patterns/quote-white-360x360.png") no-repeat 20px -130px;
+    background: url(ud-asset-url(patterns/quote-white-360x360.png)) no-repeat 20px -130px;
     color: ud-color(canonical-aubergine);
     float: right;
     font-size: 1em;
@@ -53,7 +53,7 @@ blockquote {
   }
 
   &.quote-canonical-white {
-    background: url("#{$asset-path}patterns/quote-aubergine-345x345.png") no-repeat 0 0;
+    background: url(ud-asset-url(patterns/quote-aubergine-345x345.png)) no-repeat 0 0;
     color: white;
     padding: 80px 60px 0;
     height: 265px;
@@ -66,7 +66,7 @@ blockquote {
   }
 
   &.quote-right-bottom {
-    background-image: url("#{$asset-path}pictograms/picto-pack/picto-quote-orange.svg");
+    background-image: url(ud-asset-url(pictograms/picto-pack/picto-quote-orange.svg));
     background-repeat: no-repeat;
     background-size: 287px 286px;
     color: white;
@@ -82,7 +82,7 @@ blockquote {
 
   &.quote-grey {
     @include ud-set-font-size(36);
-    background: url("#{$asset-path}patterns/quote-grey-br-211x211.png") no-repeat scroll 0 0 transparent;
+    background: url(ud-asset-url(patterns/quote-grey-br-211x211.png)) no-repeat scroll 0 0 transparent;
     color: white;
     height: 152px;
     line-height: 40px;
@@ -93,7 +93,7 @@ blockquote {
   }
 
   &.quote-bottom-left {
-    background: url("#{$asset-path}patterns/quote-orange-bl-287x287.png") no-repeat;
+    background: url(ud-asset-url(patterns/quote-orange-bl-287x287.png)) no-repeat;
     color: white;
     height: 167px;
     padding: 55px 40px 70px 45px;
@@ -111,7 +111,7 @@ blockquote {
 html.no-svg,
 .opera-mini {
   blockquote.quote-right-bottom {
-    background-image: url("#{$asset-path}pictograms/picto-pack/picto-quote-orange.png");
+    background-image: url(ud-asset-url(pictograms/picto-pack/picto-quote-orange.png));
   }
 }
 
@@ -159,12 +159,12 @@ html.no-svg,
   }
 
   .quote-twitter {
-    background: #fcece7 url('#{$asset-path}pictograms/pictogram-twitter-115x139.png') $gutter-width bottom no-repeat;
+    background: #fcece7 url(ud-asset-url(pictograms/pictogram-twitter-115x139.png)) $gutter-width bottom no-repeat;
     padding: $gutter-width $gutter-width $gutter-width $three-col;
   }
 
   .quote-twitter-small {
-    background: #fcece7 url('#{$asset-path}pictograms/pictogram-twitter-54x63.png') 99% bottom no-repeat;
+    background: #fcece7 url(ud-asset-url(pictograms/pictogram-twitter-54x63.png)) 99% bottom no-repeat;
     padding: $gutter-width $gutter-width $gutter-width 80px;
 
     p {

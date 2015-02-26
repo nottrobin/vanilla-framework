@@ -1,0 +1,52 @@
+////
+/// These are settings that will be global to the ubuntudesign framework
+///
+/// There may be other properties you can set in individual modules as well.
+////
+
+/// Standard colours for Ubuntu themes
+///
+/// Before adding new colours, check whether your colour 
+/// already has a standard X11 name
+/// http://en.wikipedia.org/wiki/X11_color_names#Color_name_chart
+///
+/// @colordef  ubuntudesign-color(ubuntu-orange) (#dd4814); Ubuntu orange
+/// @colordef  ubuntudesign-color(light-orange) (#fdf6f2); Light orange
+/// @colordef  ubuntudesign-color(canonical-aubergine) (#772953); Canonical aubergine
+/// @colordef  ubuntudesign-color(light-aubergine) (#77216f); Light aubergine
+/// @colordef  ubuntudesign-color(mid-aubergine) (#5e2750); Mid aubergine
+/// @colordef  ubuntudesign-color(dark-aubergine) (#2c001e); Dark aubergine
+/// @colordef  ubuntudesign-color(warm-grey) (#888); Lightish grey
+/// @colordef  ubuntudesign-color(cool-grey) (#333); Darkish grey
+/// @colordef  white-grey (#f7f7f7); Very light grey
+///
+/// (Idea from The Guardian: http://guardian.github.io/pasteup-palette/docs/)
+$ubuntudesign-colors: (
+  ubuntu-orange:         #dd4814,
+  light-orange:          #fdf6f2,
+  canonical-aubergine:   #772953,
+  light-aubergine:       #77216f,
+  mid-aubergine:         #5e2750,
+  dark-aubergine:        #2c001e,
+  warm-grey:             #888,
+  cool-grey:             #333,
+  white-grey:            #f7f7f7,
+  lighter-grey:          #efefef
+) !default;
+
+/// Values for the standard grid
+$ubuntudesign-grid-settings: (
+  gutter-width:          20px,
+  gutter-percentage:     2.12766%,
+  one-col-percentage:    6.38297%,
+  two-col-percentage:    14.89361%,
+  three-col-percentage:  23.40425%,
+  four-col-percentage:   31.91489%,
+  five-col-percentage:   40.42553%,
+  six-col-percentage:    48.93617%,
+  seven-col-percentage:  57.4468%,
+  eight-col-percentage:  65.95744%,
+  nine-col-percentage:   74.46808%,
+  ten-col-percentage:    82.97872%,
+  eleven-col-percentage: 91.48936%
+) !default;
