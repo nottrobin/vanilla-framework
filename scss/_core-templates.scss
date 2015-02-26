@@ -1,4 +1,4 @@
-@import 'ubuntudesign-colors';
+@import 'helpers/all';
 @import 'core-constants';
 @import 'core-mixins';
 
@@ -12,12 +12,12 @@
 
 .row-enterprise {
   border-radius: 0;
-  background: ubuntudesign-color(canonical-aubergine);
+  background: ud-color(canonical-aubergine);
   color: white;
 
   .box,
   div {
-    background: ubuntudesign-color(canonical-aubergine);
+    background: ud-color(canonical-aubergine);
     color: white;
   }
 

@@ -9,13 +9,13 @@
 // row-aux
 // row-step
 
-@import '../ubuntudesign-colors';
+@import 'helpers/all';
 
 // row
 // ----------------------------------------------------------
 .row {
   box-sizing: border-box;
-  border-bottom: 1px dotted ubuntudesign-color(warm-grey);
+  border-bottom: 1px dotted ud-color(warm-grey);
   clear: both;
   padding: 20px 10px 0;
   position: relative;
@@ -28,7 +28,7 @@
 }
 
 .row-grey {
-  background: ubuntudesign-color(white-grey);
+  background: ud-color(white-grey);
 }
 
 .no-border { border: 0; }
@@ -69,7 +69,7 @@
 }
 
 .strip-dark {
-  background-color: ubuntudesign-color(dark-aubergine);
+  background-color: ud-color(dark-aubergine);
   background-image: url("#{$asset-path}backgrounds/background-grid.png");
   background-repeat: repeat;
   color: white;
@@ -79,7 +79,7 @@
   }
 
   .resource {
-    color: ubuntudesign-color(cool-grey);
+    color: ud-color(cool-grey);
     box-shadow: none;
   }
 
@@ -135,8 +135,8 @@
     height: 32px;
     width: 32px;
     border-radius: 50%;
-    border: 3px solid ubuntudesign-color(ubuntu-orange);
-    color: ubuntudesign-color(ubuntu-orange);
+    border: 3px solid ud-color(ubuntu-orange);
+    color: ud-color(ubuntu-orange);
     line-height: 32px;
     text-align: center;
     background-color: white;

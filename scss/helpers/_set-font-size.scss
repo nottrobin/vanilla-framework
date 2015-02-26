@@ -1,0 +1,11 @@
+// Properties
+// ===
+
+/// The base size, from which to calculate font-size by ($size / $base)em
+$base-font-size: 14;
+
+@mixin ubuntudesign-set-font-size ($font-size: 16) {
+  font-size: ($font-size / $base-font-size)+em;
+  margin-bottom: (12 / $font-size)+em;
+}
+@mixin ud-set-font-size($font-size: 16) { @include ubuntudesign-set-font-size($font-size); }

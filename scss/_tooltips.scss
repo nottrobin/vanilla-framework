@@ -1,4 +1,4 @@
-@import '../ubuntudesign-colors';
+@import 'helpers/all';
 
 .yui3-tooltip-hidden {
   display: none;
@@ -9,7 +9,7 @@
   background: url("#{$asset-path}patterns/grey-textured-background.jpg") repeat scroll 0 0 transparent;
   border-radius: 4px;
   border: 1px solid #e3e3e3;
-  color: ubuntudesign-color(cool-grey);
+  color: ud-color(cool-grey);
   margin-top: -30px;
   max-width: 520px;
   position: relative;
@@ -35,8 +35,8 @@
   }
 
   q {
-    border-bottom: 1px dotted ubuntudesign-color(warm-grey);
-    border-top: 1px dotted ubuntudesign-color(warm-grey);
+    border-bottom: 1px dotted ud-color(warm-grey);
+    border-top: 1px dotted ud-color(warm-grey);
     display: block;
     font-size: 16px;
     font-style: italic;
@@ -66,12 +66,12 @@
   left: 50%;
   margin: 0 0 0 -10px;
   border-width: 0 10px 10px;
-  border-color: $box-solid-grey transparent;
+  border-color: ud-color(lighter-grey) transparent;
 }
 
 .yui3-tooltip .yui3-tooltip-align-bottom .yui3-widget-ft div {
   top: 0;
-  border-color: $box-solid-grey transparent;
+  border-color: ud-color(lighter-grey) transparent;
 }
 
 .tooltip-label {

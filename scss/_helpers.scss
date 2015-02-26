@@ -55,7 +55,7 @@ a.external {
 .no-border { border: 0; }
 
 .link-top {
-    @include font-size (14);
+    @include ud-set-font-size(14);
     clear: both;
     margin-bottom: 40px;
     margin-top: -40px;

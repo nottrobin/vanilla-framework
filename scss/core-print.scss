@@ -7,7 +7,7 @@
 
 ////
 
-@import 'ubuntudesign-colors';
+@import 'helpers/all';
 @import 'core-constants';
 
 * {
@@ -24,7 +24,7 @@ body {
 a:link,
 a:visited {
   background: transparent;
-  color: ubuntudesign-color(warm-grey);
+  color: ud-color(warm-grey);
   font-weight: bold;
   text-decoration: underline;
 }

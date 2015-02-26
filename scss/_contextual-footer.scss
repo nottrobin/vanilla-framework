@@ -1,8 +1,8 @@
-@import '../ubuntudesign-colors';
+@import 'helpers/all';
 
 #context-footer {
   box-sizing: border-box;
-  @include font-size (14);
+  @include ud-set-font-size(14);
   border-bottom: 0;
   clear: both;
   padding-bottom: 1px;
@@ -15,7 +15,7 @@
 
   hr {
     box-shadow: inset 0 2px 2px -2px #333;
-    background: ubuntudesign-color(ubuntu-orange);
+    background: ud-color(ubuntu-orange);
     height: 14px;
     margin: 0 0 10px;
     border: 0;
@@ -63,7 +63,7 @@
   }
 
   h3 {
-    @include font-size (16);
+    @include ud-set-font-size(16);
     font-weight: normal;
   }
 

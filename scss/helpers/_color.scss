@@ -1,8 +1,5 @@
-////
-/// Standard colours for the UbuntuDesign framework
-/// @project     UbuntuDesign SCSS framework
-/// @author      Canonical Web Team
-////
+// Properties
+// ==
 
 /// Standard set of extension colours for use within Sass
 ///
@@ -30,8 +27,12 @@ $ubuntudesign-colors: (
   dark-aubergine:        #2c001e,
   warm-grey:             #888,
   cool-grey:             #333,
-  white-grey:            #f7f7f7
-);
+  white-grey:            #f7f7f7,
+  lighter-grey:          #efefef
+) !default;
+
+// Functions
+// ==
 
 /// A shortcut function for getting colours from the $ubuntudesign-colors map
 ///
@@ -40,5 +41,7 @@ $ubuntudesign-colors: (
 ///
 /// (Thanks to: http://www.sitepoint.com/using-sass-maps/#project-configuration)
 @function ubuntudesign-color($key) {
-  @return map-get($ubuntudesign-colors, $key)
+  @return map-get($ubuntudesign-colors, $key);
 }
+/// Alias for ubuntudesign-color
+@function ud-color($key) {@return ubuntudesign-color($key);}

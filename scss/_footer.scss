@@ -1,4 +1,4 @@
-@import '../ubuntudesign-colors';
+@import 'helpers/all';
 
 body footer.global #nav-global li:first-of-type a {
   margin-left: 0;
@@ -42,7 +42,7 @@ footer.global {
   }
 
   h2, h2 a:link, h2 a:visited {
-    color: ubuntudesign-color(cool-grey);
+    color: ud-color(cool-grey);
     font-weight: normal;
   }
 
@@ -57,32 +57,32 @@ footer.global {
   }
 
   nav ul li li {
-    @include font-size (12);
+    @include ud-set-font-size(12);
     font-size: 0.75em;
     margin-bottom: 0;
   }
 
   ul li li a:link, ul li li a:visited {
-    color: ubuntudesign-color(cool-grey);
+    color: ud-color(cool-grey);
     margin-bottom: 0;
   }
 
   ul li li a:hover, ul li li a:active, h2 a:hover, h2 a:active {
-    color: ubuntudesign-color(ubuntu-orange);
+    color: ud-color(ubuntu-orange);
     //text-decoration: underline;
   }
 
   .inline li { display: inline; }
 
   p, ul.inline li a {
-    color: ubuntudesign-color(cool-grey);
+    color: ud-color(cool-grey);
     font-size: 12px;
     margin-bottom: 0;
   }
-  ul.inline li a:hover { color: ubuntudesign-color(ubuntu-orange); }
+  ul.inline li a:hover { color: ud-color(ubuntu-orange); }
   
   ul.inline li:after {
-    color: ubuntudesign-color(warm-grey);
+    color: ud-color(warm-grey);
     content: "\00b7";
     vertical-align: middle;
     margin: 0 5px;

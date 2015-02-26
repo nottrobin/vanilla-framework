@@ -1,4 +1,4 @@
-@import '../ubuntudesign-colors';
+@import 'helpers/all';
 
 .caps-centered,
 .muted-heading {
@@ -9,7 +9,7 @@
 }
 
 p.intro {
-  @include font-size (16);
+  @include ud-set-font-size(16);
   line-height: 1.4;
 }
 
@@ -23,7 +23,7 @@ p.intro {
 }
 
 .note {
-  color: ubuntudesign-color(warm-grey);
+  color: ud-color(warm-grey);
   font-size: .813em;
 }
 

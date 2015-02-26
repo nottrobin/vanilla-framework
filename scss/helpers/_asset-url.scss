@@ -1,0 +1,18 @@
+// Properties
+// ===
+
+/// The URL prefix for assets (used in ud-asset-url())
+$asset-url-prefix: '//assets.ubuntu.com/sites/ubuntu/latest/u/img/' !default;
+
+// Functions
+// ==
+
+////
+/// A simple function to get the URL for an ubuntu asset
+/// Relies on $asset-url-prefix, which can be overridden
+////
+@function ubuntudesign-asset-url($path) {
+    @return $asset-url-prefix + $path;
+}
+/// Alias for ubuntudesign-asset-url
+@function ud-asset-url($path) {@return ubuntudesign-asset-url($path);}

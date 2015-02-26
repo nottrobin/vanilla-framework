@@ -1,9 +1,9 @@
-@import '../ubuntudesign-colors';
+@import 'helpers/all';
 
 div.warning {
   @include rounded-corners(4px);
   background-color: #fdffdc;
-  color: ubuntudesign-color(cool-grey);
+  color: ud-color(cool-grey);
 
   p {
     padding: 0;

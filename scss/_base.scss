@@ -1,4 +1,4 @@
-@import 'ubuntudesign-colors';
+@import 'helpers/all';
 @import 'core-constants';
 @import 'core-mixins';
 
@@ -10,8 +10,8 @@
 /// @author     Web Team at Canonical Ltd
 /// @copyright  2015 Canonical Ltd
 ///
-/// @colordef  ubuntudesign-color(cool-grey) (#333); main text
-/// @colordef  ubuntudesign-color(ubuntu-orange) (#dd4814); Ubuntu orange
+/// @colordef  ud-color(cool-grey) (#333); main text
+/// @colordef  ud-color(ubuntu-orange) (#dd4814); Ubuntu orange
 
 /// Dependencies
 ///
@@ -38,6 +38,18 @@
 /// Forms
 /// Tables
 ////
+
+// Properties
+// ==
+
+/// The colour for form errors
+$error-color: #df382c;
+
+/// The colour for links in content
+$link-color: ud-color(ubuntu-orange);
+
+/// The base size
+$base-font-size: 14;
 
 /// General
 ///
@@ -154,7 +166,7 @@ audio:not([controls]) {
 @import url('//fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,700,700italic%7CUbuntu+Mono');
 
 html {
-  background: url('#{$asset-path}backgrounds/image-background-paper.png') repeat-y fixed center top ubuntudesign-color(white-grey);
+  background: url('#{$asset-path}backgrounds/image-background-paper.png') repeat-y fixed center top ud-color(white-grey);
   font-size: 100%;
   overflow-y: scroll;
   text-size-adjust: 100%;
@@ -162,7 +174,7 @@ html {
 }
 
 body {
-  background: url('#{$asset-path}backgrounds/image-background-paper.png') repeat-y center top ubuntudesign-color(white-grey);
+  background: url('#{$asset-path}backgrounds/image-background-paper.png') repeat-y center top ud-color(white-grey);
   color: #333;
   font-family: Ubuntu, Arial, 'libra sans', sans-serif;
   font-weight: 300;
@@ -177,7 +189,7 @@ blockquote {
   margin: 0; 
   
   > p {
-    @include font-size (13);
+    @include ud-set-font-size(13);
     font-weight: 100;
     margin: 0 0 .4em;
   }
@@ -447,7 +459,7 @@ pre {
 
 pre {
   border-radius: 4px;
-  background: ubuntudesign-color(light-orange);
+  background: ud-color(light-orange);
   padding: .6em 1em;
   white-space: pre-wrap;
   word-wrap: break-word;
@@ -569,10 +581,10 @@ form input[type='radio'] + label {
 }
 
 form input[type='submit'] {
-  @include font-size (16);
+  @include ud-set-font-size(16);
   border-radius: 4px;
-  background-color: ubuntudesign-color(ubuntu-orange);
-  background-image: linear-gradient(#f26120, ubuntudesign-color(ubuntu-orange));
+  background-color: ud-color(ubuntu-orange);
+  background-image: linear-gradient(#f26120, ud-color(ubuntu-orange));
   box-shadow: none;
   border: 0;
   color: white;
@@ -584,7 +596,7 @@ form input[type='submit'] {
 }
 
 form input[type='submit']:hover {
-  background: ubuntudesign-color(ubuntu-orange);
+  background: ud-color(ubuntu-orange);
 }
 
 form label {
@@ -593,7 +605,7 @@ form label {
   margin-bottom: 4px;
   
   span {
-    color: $error;
+    color: $error-color;
   }
   
 }
@@ -633,7 +645,7 @@ table {
   td {
     padding: 15px 10px;
     background: #f0edea;
-    border: 1px dotted ubuntudesign-color(warm-grey);
+    border: 1px dotted ud-color(warm-grey);
   }
   
   td {
@@ -645,7 +657,7 @@ table {
     border-collapse: separate;
     border-spacing: 0 10px;
     background: #fee3d2;
-    color: ubuntudesign-color(cool-grey);
+    color: ud-color(cool-grey);
     font-weight: normal;
   }
   

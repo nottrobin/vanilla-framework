@@ -1,3 +1,9 @@
+////
+/// Parameters
+////
+
+$error-color: #df382c;
+
 form {
   input,
   select,
@@ -14,7 +20,7 @@ form {
     .mktError,
     .errMsg,
     .reqMark {
-      color: $error;
+      color: $error-color;
     }
 
     .mktFormMsg {

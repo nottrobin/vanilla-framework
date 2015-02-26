@@ -1,21 +1,21 @@
-@import '../ubuntudesign-colors';
+@import 'helpers/all';
 
 blockquote {
   &.pull-quote {
     text-indent: 0;
 
     p {
-      color: ubuntudesign-color(cool-grey);
+      color: ud-color(cool-grey);
       padding-left: 10px;
       padding-right: 10px;
-      @include font-size (24.833);
+      @include ud-set-font-size(24.833);
       text-indent: -.4em;
       margin-left: .4em;
       line-height: 1.3;
 
       span {
         font-weight: bold;
-        color: ubuntudesign-color(ubuntu-orange);
+        color: ud-color(ubuntu-orange);
         line-height: 0;
         position: relative;
         left: -5px;
@@ -40,9 +40,9 @@ blockquote {
 
   &.quote-canonical,
   &.quote-canonical-white {
-    @include font-size (16);
+    @include ud-set-font-size(16);
     background: url("#{$asset-path}patterns/quote-white-360x360.png") no-repeat 20px -130px;
-    color: ubuntudesign-color(canonical-aubergine);
+    color: ud-color(canonical-aubergine);
     float: right;
     font-size: 1em;
     height: 215px;
@@ -60,7 +60,7 @@ blockquote {
   }
 
   &.quote p:first-child {
-    @include font-size (18); // (16) desired value in px, this is divided by the baseline font-size value to reach the em value
+    @include ud-set-font-size(18); // (16) desired value in px, this is divided by the baseline font-size value to reach the em value
     line-height: 1.3;
     text-indent: -7px;
   }
@@ -81,7 +81,7 @@ blockquote {
   }
 
   &.quote-grey {
-    @include font-size (36);
+    @include ud-set-font-size(36);
     background: url("#{$asset-path}patterns/quote-grey-br-211x211.png") no-repeat scroll 0 0 transparent;
     color: white;
     height: 152px;
@@ -102,8 +102,8 @@ blockquote {
 }
 
 //.pull-quote {
-  //@include font-size (30);
-  //color: ubuntudesign-color(warm-grey);
+  //@include ud-set-font-size(30);
+  //color: ud-color(warm-grey);
   //line-height: 1.4;
   //right: 0;
 //}
@@ -130,17 +130,17 @@ html.no-svg,
     p {
       margin-bottom: .75em;
       line-height: 1.3;
-      color: ubuntudesign-color(cool-grey);
+      color: ud-color(cool-grey);
       padding-left: 10px;
       padding-right: 10px;
-      //@include font-size (23);
+      //@include ud-set-font-size(23);
       //font-size: 1em;
       text-indent: 0;
     }
 
     span {
       font-weight: bold;
-      color: ubuntudesign-color(ubuntu-orange);
+      color: ud-color(ubuntu-orange);
       line-height: 0;
       position: relative;
       left: -5px;
@@ -149,7 +149,7 @@ html.no-svg,
     }
 
     cite {
-      color: ubuntudesign-color(cool-grey);
+      color: ud-color(cool-grey);
       font-style: normal;
       margin-bottom: 0;
       font-size: .75em;
@@ -177,7 +177,7 @@ html.no-svg,
 blockquote.quote-canonical,
 blockquote.quote-canonical-white {
   background: none;
-  color: ubuntudesign-color(cool-grey);
+  color: ud-color(cool-grey);
   width: auto;
   height: auto;
   padding: 0 30px;
@@ -200,7 +200,7 @@ blockquote.quote-canonical-white {
   }
 
   .row-quote blockquote p {
-    @include font-size (24.83);
+    @include ud-set-font-size(24.83);
   }
 
    blockquote.pull-quote p,
@@ -230,7 +230,7 @@ blockquote.quote-canonical-white {
 
   .row-quote blockquote {
     p {
-      @include font-size (24.83);
+      @include ud-set-font-size(24.83);
       text-indent: -.4em;
     }
   }

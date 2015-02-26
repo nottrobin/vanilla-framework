@@ -1,4 +1,4 @@
-@import '../ubuntudesign-colors';
+@import 'helpers/all';
 
 %box {
   border-radius: 4px;
@@ -13,18 +13,18 @@
 
 .box-grey {
   @extend %box;
-  background: ubuntudesign-color(white-grey);
-  color: ubuntudesign-color(cool-grey);
+  background: ud-color(white-grey);
+  color: ud-color(cool-grey);
 }
 
 .box-orange {
-  background: ubuntudesign-color(ubuntu-orange);
+  background: ud-color(ubuntu-orange);
   color: white;
 }
 
 .box-highlight {
   box-shadow: 0 2px 2px 0 #c2c2c2;
-  border: 1px solid ubuntudesign-color(white-grey);
+  border: 1px solid ud-color(white-grey);
 }
 
 .box-textured {
@@ -35,19 +35,19 @@
 
 .box-padded {
   border-radius: 4px;
-  background: $box-solid-grey;
+  background: ud-color(lighter-grey);
   border: 0;
   margin-bottom: 20px;
   padding: 6px 5px;
 
   h3 {
-    @include font-size(19.5);
+    @include ud-set-font-size(19.5);
     margin-left: ($gutter-width / 4);
     margin-top: 5px;
   }
 
   li h3 { // this happens in 'Further reading' /cloud/insights
-    @include font-size(19.5);
+    @include ud-set-font-size(19.5);
     margin: 0;
   }
 
@@ -69,11 +69,11 @@
   h3 {
     color: white;
     margin-left: ($gutter-width / 4);
-    @include font-size(19.5);
+    @include ud-set-font-size(19.5);
   }
 
   h4 {
-    @include font-size(16);
+    @include ud-set-font-size(16);
     font-weight: normal;
   }
 
