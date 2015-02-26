@@ -1,11 +1,11 @@
-@charset 'UTF-8';
+@import '../ubuntudesign-colors';
 
 $nav-box-shadow-color: #777777;
 $nav-border-color: #d5d5d5;
 $nav-hover-border-left: #ec5B29;
 
 .banner {
-  background: $ubuntu-orange;
+  background: ubuntudesign-color(ubuntu-orange);
   border-top: 0;
   display: block;
   min-width: 100%;
@@ -19,13 +19,13 @@ $nav-hover-border-left: #ec5B29;
     overflow: hidden;
 
     ul {
-      border-right: 1px solid lighten($ubuntu-orange, 10%);
+      border-right: 1px solid lighten(ubuntudesign-color(ubuntu-orange), 10%);
       float: left;
       margin: 0;
       position: static;
 
       li {
-        border-left: 1px solid darken($ubuntu-orange, 5%);
+        border-left: 1px solid darken(ubuntudesign-color(ubuntu-orange), 5%);
         float: left;
         list-style-image: none;
         margin: 0;
@@ -33,7 +33,7 @@ $nav-hover-border-left: #ec5B29;
         vertical-align: bottom;
         
         ul {
-          background: $light-grey;
+          background: ubuntudesign-color(white-grey);
           box-shadow: 0 2px 2px -1px $nav-box-shadow-color;
           border-radius: 10px;
           border: 1px solid $nav-border-color;
@@ -61,13 +61,13 @@ $nav-hover-border-left: #ec5B29;
       }
 
       li:last-child {
-        border-right: 1px solid darken($ubuntu-orange, 5%);
+        border-right: 1px solid darken(ubuntudesign-color(ubuntu-orange), 5%);
       }
 
       li a:link,
       li a:visited {
-        border-left: 1px solid lighten($ubuntu-orange, 7%);
-        color: $white;
+        border-left: 1px solid lighten(ubuntudesign-color(ubuntu-orange), 7%);
+        color: white;
         display: block;
         font-size: 14px;
         font-smoothing: subpixel-antialiased;
@@ -80,7 +80,7 @@ $nav-hover-border-left: #ec5B29;
 
       a.active {
         background: #b83A10;
-        border-left: 1px solid lighten($ubuntu-orange, 7%);
+        border-left: 1px solid lighten(ubuntudesign-color(ubuntu-orange), 7%);
       }
 
       li a:hover {
@@ -222,7 +222,7 @@ header nav ul.active {
 
       a:hover,
       a:active {
-        color: $ubuntu-orange;
+        color: ubuntudesign-color(ubuntu-orange);
         text-decoration: none;
       }
     }
@@ -230,7 +230,7 @@ header nav ul.active {
     li,
     li.active a:link,
     li.active a:visited {
-      color: $ubuntu-orange;
+      color: ubuntudesign-color(ubuntu-orange);
       text-decoration: none;
     }
   }
@@ -241,13 +241,13 @@ header nav ul.active {
     li,
     li a:link,
     li a:visited {
-      color: $warm-grey;
+      color: ubuntudesign-color(warm-grey);
       margin-right: 8px;
     }
 
     li.active a:link,
     li.active a:visited {
-      color: $ubuntu-orange;
+      color: ubuntudesign-color(ubuntu-orange);
     }
   }
 }
@@ -265,7 +265,7 @@ header nav ul.active {
 .banner h2 a:link, 
 .banner h2 a:visited, 
 .banner a {
-  color: $white;
+  color: white;
   float: left;
   text-decoration:none;
 }
@@ -373,7 +373,7 @@ header nav ul.active {
   .nav-primary li ul .promo a:visited {
     background: none repeat scroll 0 0 transparent;
     border-left: 0 none;
-    color: $cool_grey;
+    color: ubuntudesign-color(cool_grey);
     height: auto;
     padding: 0;
     text-align: left;
@@ -395,7 +395,7 @@ header nav ul.active {
   }
   
   .nav-primary li ul .promo .category {
-    color: $warm-grey;
+    color: ubuntudesign-color(warm-grey);
     font-size: 11px;
     margin: 0 10px;
     text-transform: uppercase;
@@ -522,7 +522,7 @@ html.no-svg,
   }
 
   .nav-secondary {
-    background: $white;
+    background: white;
 
     ul.second-level-nav {
       border-top: 1px solid $nav-border-dark;
@@ -616,7 +616,7 @@ html.no-svg,
 
       li {
         box-sizing: border-box;
-        color: $white;
+        color: white;
         width: 100%;
         display: block;
         height: 40px;
@@ -822,7 +822,7 @@ html.no-svg,
 @media only screen and (min-width : 769px) {
 
   .banner {
-    box-shadow: 0 2px 2px -2px $nav-box-shadow-color inset, 2px 1px $white;
+    box-shadow: 0 2px 2px -2px $nav-box-shadow-color inset, 2px 1px white;
 
     .nav-primary {
       box-shadow: none;

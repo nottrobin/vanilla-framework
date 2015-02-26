@@ -1,4 +1,3 @@
-@charset 'UTF-8';
 ////
 /// Ubuntu print Stylesheet
 
@@ -8,15 +7,16 @@
 
 ////
 
+@import 'ubuntudesign-colors';
 @import 'core-constants';
 
 * {
-  background: $white;
-  color: $black;
+  background: white;
+  color: black;
 }
 
 body {
-  background: $white;
+  background: white;
   font-size: 16pt;
   line-height: 1.5;
 }
@@ -24,7 +24,7 @@ body {
 a:link,
 a:visited {
   background: transparent;
-  color: $warm-grey;
+  color: ubuntudesign-color(warm-grey);
   font-weight: bold;
   text-decoration: underline;
 }

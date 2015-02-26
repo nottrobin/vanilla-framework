@@ -1,5 +1,4 @@
-@charset 'UTF-8';
-
+@import 'ubuntudesign-colors';
 @import 'core-constants';
 @import 'core-mixins';
 
@@ -13,17 +12,17 @@
 
 .row-enterprise {
   border-radius: 0;
-  background: $canonical-aubergine;
-  color: $white;
+  background: ubuntudesign-color(canonical-aubergine);
+  color: white;
 
   .box,
   div {
-    background: $canonical-aubergine;
-    color: $white;
+    background: ubuntudesign-color(canonical-aubergine);
+    color: white;
   }
 
   a {
-    color: $white;
+    color: white;
   }
 }
 

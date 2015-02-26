@@ -14,7 +14,7 @@
     transition: all .5s ease-out;
     background-color: #be3d00;
     border: none;
-    color: $white;
+    color: white;
     display: block;
     float: left;
     font-size: 16px;
@@ -130,7 +130,7 @@ header.banner .search-toggle {
   border-radius: 4px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3) inset, 0 -1px 3px rgba(0, 0, 0, 0.2) inset, 0 2px 0 rgba(255, 255, 255, 0.4);
   box-sizing: border-box;
-  background: $white;
+  background: white;
   border: 0;
   color: #333;
   font-size: 16px;
@@ -203,7 +203,7 @@ header.banner .search-toggle {
       background: url("#{$asset-path}icons/icon-search.png") no-repeat scroll 5px center, none repeat scroll 0 0 #BE3D00;
       border: 6px solid #DE6532;
       border-width: 0 0 1px;
-      color: $white;
+      color: white;
       font-size: 0.813em;
       height: 24px;
       margin-bottom: 0;
@@ -225,7 +225,7 @@ header.banner .search-toggle {
 
       input[type="search"] {
         border-radius: 0;
-        background: $light_grey;
+        background: ubuntudesign-color(light-grey);
         color: #333;
       }
       button[type="submit"] {
@@ -401,7 +401,7 @@ body.search-no-results {
   }
   .nav-back li:before {
     content: "\2039"; /* left chevron &lsaquo; */
-    color: $ubuntu_orange;
+    color: ubuntudesign-color(ubuntu-orange);
     margin-right: 5px;
   }
   .nav-back li.item-extreme:before {
@@ -412,7 +412,7 @@ body.search-no-results {
   }
   .nav-forward li:after {
     content: "\203A"; /* right chevron&nbsp;&rsaquo; */
-    color: $ubuntu_orange;
+    color: ubuntudesign-color(ubuntu-orange);
     margin-left: 5px;
   }
   .nav-forward li.item-extreme:after {

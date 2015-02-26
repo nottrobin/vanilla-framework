@@ -10,6 +10,16 @@
 /// already has a standard X11 name
 /// http://en.wikipedia.org/wiki/X11_color_names#Color_name_chart
 ///
+/// @colordef  ubuntudesign-color(ubuntu-orange) (#dd4814); Ubuntu orange
+/// @colordef  ubuntudesign-color(light-orange) (#fdf6f2); Light orange
+/// @colordef  ubuntudesign-color(canonical-aubergine) (#772953); Canonical aubergine
+/// @colordef  ubuntudesign-color(light-aubergine) (#77216f); Light aubergine
+/// @colordef  ubuntudesign-color(mid-aubergine) (#5e2750); Mid aubergine
+/// @colordef  ubuntudesign-color(dark-aubergine) (#2c001e); Dark aubergine
+/// @colordef  ubuntudesign-color(warm-grey) (#888); Lightish grey
+/// @colordef  ubuntudesign-color(cool-grey) (#333); Darkish grey
+/// @colordef  white-grey (#f7f7f7); Very light grey
+///
 /// (Idea from The Guardian: http://guardian.github.io/pasteup-palette/docs/)
 $ubuntudesign-colors: (
   ubuntu-orange:         #dd4814,

@@ -1,9 +1,9 @@
-@charset 'UTF-8';
+@import '../ubuntudesign-colors';
 
 div.warning {
   @include rounded-corners(4px);
   background-color: #fdffdc;
-  color: $cool-grey;
+  color: ubuntudesign-color(cool-grey);
 
   p {
     padding: 0;

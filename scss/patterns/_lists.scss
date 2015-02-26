@@ -1,4 +1,4 @@
-@charset 'UTF-8';
+@import '../ubuntudesign-colors';
 
 .list,
 .list-ubuntu,
@@ -7,7 +7,7 @@
   margin-left: 0;
 
   li {
-    border-bottom: 1px dotted $warm-grey;
+    border-bottom: 1px dotted ubuntudesign-color(warm-grey);
     margin-bottom: 0;
     padding: 10px 0;
   }
@@ -20,7 +20,7 @@
 }
 
 .list article {
-  border-bottom: 1px dotted $warm-grey;
+  border-bottom: 1px dotted ubuntudesign-color(warm-grey);
   margin-bottom: 0;
   padding: 10px 0;
 }
@@ -85,7 +85,7 @@ html.no-svg,
   }
 
   li.last-item {
-    border-bottom: 1px dotted $warm-grey;
+    border-bottom: 1px dotted ubuntudesign-color(warm-grey);
     padding-bottom: 10px;
   }
 

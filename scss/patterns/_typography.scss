@@ -1,4 +1,4 @@
-@charset 'UTF-8';
+@import '../ubuntudesign-colors';
 
 .caps-centered,
 .muted-heading {
@@ -23,7 +23,7 @@ p.intro {
 }
 
 .note {
-  color: $warm-grey;
+  color: ubuntudesign-color(warm-grey);
   font-size: .813em;
 }
 

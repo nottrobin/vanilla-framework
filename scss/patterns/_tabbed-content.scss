@@ -1,4 +1,4 @@
-@charset 'UTF-8';
+@import '../ubuntudesign-colors';
 
 html.js .tabbed-content .accordion-button {
   box-sizing: border-box;
@@ -24,7 +24,7 @@ html.yui3-js-enabled {
   .tabbed-content {
       border-radius: 4px;
       padding: 8px 8px 0;
-      background: $light-grey;
+      background: ubuntudesign-color(white-grey);
       margin-bottom: 8px;
 
       &.hide {
@@ -42,8 +42,8 @@ html.yui3-js-enabled {
 
       .accordion-button {
         box-sizing: border-box;
-        background: url("#{$asset-path}icons/icon-arrow-down.svg") no-repeat scroll right 3px $light-grey;
-        color: $cool-grey;
+        background: url("#{$asset-path}icons/icon-arrow-down.svg") no-repeat scroll right 3px ubuntudesign-color(white-grey);
+        color: ubuntudesign-color(cool-grey);
         display: block;
         font-size: 16px;
         padding-bottom: .6em;
@@ -131,7 +131,7 @@ html.yui3-js-enabled {
     box-shadow: 0 -1px 10px #cfcfcf inset;
     box-sizing: border-box;
     border-radius: 4px 4px 0 0;
-    background: none repeat scroll 0 0 $light-grey;
+    background: none repeat scroll 0 0 ubuntudesign-color(white-grey);
     padding-bottom: $gutter-width;
     padding-top: $gutter-width;
     position: relative;
@@ -157,7 +157,7 @@ html.yui3-js-enabled {
       outline: none;
 
       .active {
-        color: $canonical-aubergine;
+        color: ubuntudesign-color(canonical-aubergine);
         text-decoration: none;
       }
     }
@@ -193,7 +193,7 @@ html.yui3-js-enabled {
 
   .tabbed-content-bg {
     box-sizing: border-box;
-    background: $white;
+    background: white;
     margin-left: 20px;
     margin-right: 20px;
   }

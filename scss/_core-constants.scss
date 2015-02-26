@@ -1,4 +1,3 @@
-@charset 'UTF-8';
 ////
 /// Ubuntu Patterns Stylesheet
 /// The CSS file required by Ubuntu patterns page
@@ -14,29 +13,6 @@
 /// assets database path
 /// usage: background: url(#{$asset-path}/backgrounds/background.jpg) no-repeat 0 0;
 $asset-path: '//assets.ubuntu.com/sites/ubuntu/latest/u/img/';
-
-/// ubuntu orange (used for text links also on any site except canonical)
-$ubuntu-orange:         #dd4814;
-/// light-orange - used as background on pre text
-$light-orange:          #fdf6f2;
-/// canonical aubergine
-$canonical-aubergine:   #772953;
-/// light aubergine (consumer)
-$light-aubergine:       #77216f;
-/// mid aubergine (both)
-$mid-aubergine:         #5e2750;
-/// dark aubergine (enterprise)
-$dark-aubergine:        #2c001e;
-/// warm grey
-$warm-grey:             #888;
-/// cool grey
-$cool-grey:             #333;
-/// light grey
-$light-grey:            #f7f7f7;
-/// white
-$white:                 #fff;
-/// black
-$black:                 #000;
 
 /// red notifications
 $error:                 #df382c;
@@ -61,7 +37,7 @@ $status-green:          #38b44a;
 /// box solid grey
 $box-solid-grey:        #efefef;
 /// This is the global link color, mainly used for links in content
-$link-color:            $ubuntu-orange;
+$link-color:            ubuntudesign-color(ubuntu-orange);
 
 /// grid variables
 /// base

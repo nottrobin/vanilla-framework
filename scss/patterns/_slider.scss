@@ -1,8 +1,8 @@
-@charset 'UTF-8';
+@import '../ubuntudesign-colors';
 
 .slider {
   border-radius: 4px;
-  background: $light-grey;
+  background: ubuntudesign-color(white-grey);
   padding-top: $gutter-width * 2;
 
   .slide-window {
@@ -67,14 +67,14 @@
     font-size: 5em;
     margin-top: 150px;
     display: block;
-    color: $warm-grey;
+    color: ubuntudesign-color(warm-grey);
     outline: 0;
   }
 
   .arrow-prev:hover,
   .arrow-next:hover {
     text-decoration: none;
-    color: $cool-grey;
+    color: ubuntudesign-color(cool-grey);
   }
 
   .arrow-prev:active,
