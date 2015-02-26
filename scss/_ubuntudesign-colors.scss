@@ -1,0 +1,34 @@
+////
+/// Standard colours for the UbuntuDesign framework
+/// @project     UbuntuDesign SCSS framework
+/// @author      Canonical Web Team
+////
+
+/// Standard set of extension colours for use within Sass
+///
+/// Before adding new colours, check whether your colour 
+/// already has a standard X11 name
+/// http://en.wikipedia.org/wiki/X11_color_names#Color_name_chart
+///
+/// (Idea from The Guardian: http://guardian.github.io/pasteup-palette/docs/)
+$ubuntudesign-colors: (
+  ubuntu-orange:         #dd4814,
+  light-orange:          #fdf6f2,
+  canonical-aubergine:   #772953,
+  light-aubergine:       #77216f,
+  mid-aubergine:         #5e2750,
+  dark-aubergine:        #2c001e,
+  warm-grey:             #888,
+  cool-grey:             #333,
+  white-grey:            #f7f7f7
+);
+
+/// A shortcut function for getting colours from the $ubuntudesign-colors map
+///
+/// Usage:
+///     background-color: ubuntudesign-color(ubuntu-orange);
+///
+/// (Thanks to: http://www.sitepoint.com/using-sass-maps/#project-configuration)
+@function ubuntudesign-color($key) {
+  @return map-get($ubuntudesign-colors, $key)
+}
