@@ -43,7 +43,7 @@
 
         .accordion-button {
           box-sizing: border-box;
-          background: url(ud-asset-url(icons/icon-arrow-down.svg)) no-repeat scroll right 3px ud-color(white-grey);
+          background: url(ud-asset-url('icons/icon-arrow-down.svg')) no-repeat scroll right 3px ud-color(white-grey);
           color: ud-color(cool-grey);
           display: block;
           font-size: 16px;
@@ -54,7 +54,7 @@
 
         &.open {
           .accordion-button {
-            background-image: url(ud-asset-url(icons/icon-arrow-up.svg));
+            background-image: url(ud-asset-url('icons/icon-arrow-up.svg'));
             margin-bottom: 10px;
           }
 
@@ -67,12 +67,12 @@
     html.yui3-js-enabled.opera-mini .tabbed-content,
     html.yui3-js-enabled.no-svg .tabbed-content {
       .accordion-button {
-        background-image: url(ud-asset-url(icons/icon-arrow-right.png));
+        background-image: url(ud-asset-url('icons/icon-arrow-right.png'));
       }
 
       &.open {
         .accordion-button {
-          background-image: url(ud-asset-url(icons/icon-arrow-up.png));
+          background-image: url(ud-asset-url('icons/icon-arrow-up.png'));
         }
       }
     }

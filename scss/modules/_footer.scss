@@ -112,7 +112,7 @@
 
       a {
         box-sizing: border-box;
-        background-image: url(ud-asset-url(pictograms/picto-pack/picto-upload-warmgrey.svg));
+        background-image: url(ud-asset-url('pictograms/picto-pack/picto-upload-warmgrey.svg'));
         background-position: 10px center;
         background-repeat: no-repeat;
         background-size: 14px 14px;
@@ -129,7 +129,7 @@
   html.no-svg, .opera-mini {
     footer.global .top-link {
       a {
-        background-image: url(ud-asset-url(pictograms/picto-pack/picto-upload-warmgrey.png));
+        background-image: url(ud-asset-url('pictograms/picto-pack/picto-upload-warmgrey.png'));
       }
     }
   }
@@ -183,7 +183,7 @@
       padding: 30px 0 20px;
       
       .legal {
-        background: url(ud-asset-url(logos/logo-ubuntu-grey.png)) 100% 0 no-repeat;
+        background: url(ud-asset-url('logos/logo-ubuntu-grey.png')) 100% 0 no-repeat;
       }
 
       .footer-a {

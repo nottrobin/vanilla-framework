@@ -284,7 +284,7 @@ $nav-hover-border-left: #ec5B29;
     }
 
     .logo-ubuntu {
-      background: url(ud-asset-url(ubuntu-logo.png)) no-repeat scroll 0 10px transparent;
+      background: url(ud-asset-url('ubuntu-logo.png')) no-repeat scroll 0 10px transparent;
       display: inline-block;
       float: left;
       font-size: 18px;
@@ -323,7 +323,7 @@ $nav-hover-border-left: #ec5B29;
     
     .nav-primary.nav-right {
       .logo-ubuntu {
-        background-image: url(ud-asset-url(logos/logo-ubuntu-white.svg));
+        background-image: url(ud-asset-url('logos/logo-ubuntu-white.svg'));
         background-size: 107px 25px;
         float: left;
       }
@@ -406,7 +406,7 @@ $nav-hover-border-left: #ec5B29;
 
   html.no-svg, .opera-mini {
     .banner .nav-primary.nav-right .logo-ubuntu {
-      background-image: url(ud-asset-url(logos/logo-ubuntu-white.png));
+      background-image: url(ud-asset-url('logos/logo-ubuntu-white.png'));
     }
   }
 
@@ -416,7 +416,7 @@ $nav-hover-border-left: #ec5B29;
     .banner {
       .nav-primary.nav-right .logo-ubuntu,
       .logo-ubuntu {
-        background: url(ud-asset-url(logos/logo-ubuntu_cof-white_orange-hex.svg)) 0 50% no-repeat;
+        background: url(ud-asset-url('logos/logo-ubuntu_cof-white_orange-hex.svg')) 0 50% no-repeat;
         background-size: 20px 20px;
         min-width: 0;
         width: 38px;
@@ -431,7 +431,7 @@ $nav-hover-border-left: #ec5B29;
   html.no-svg, 
   .opera-mini {
     .banner .logo-ubuntu {
-      background-image: url(ud-asset-url(logos/logo-ubuntu_cof-white_orange-hex.png));
+      background-image: url(ud-asset-url('logos/logo-ubuntu_cof-white_orange-hex.png'));
     }
   }
 

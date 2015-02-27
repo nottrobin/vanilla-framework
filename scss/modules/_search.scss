@@ -76,8 +76,8 @@
 
   header.banner .search-toggle {
     background-size: 20px 20px;
-    background-image: url(ud-asset-url(search_icon_white_64.png));
-    background-image: url(ud-asset-url(search.svg));
+    background-image: url(ud-asset-url('search_icon_white_64.png'));
+    background-image: url(ud-asset-url('search.svg'));
     background-position: center center;
     background-repeat: no-repeat;
     display: block;
@@ -167,7 +167,7 @@
 
     html.no-svg, .opera-mini {
       .search-toggle {
-        background-image: url(ud-asset-url(search-white.png));
+        background-image: url(ud-asset-url('search-white.png'));
       }
     }
   } // @media only screen and (max-width : 768px)
@@ -199,7 +199,7 @@
       form input[type="search"] {
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4) inset;
         box-sizing: content-box;
-        background: url(ud-asset-url(icons/icon-search.png)) no-repeat scroll 5px center, none repeat scroll 0 0 #BE3D00;
+        background: url(ud-asset-url('icons/icon-search.png')) no-repeat scroll 5px center, none repeat scroll 0 0 #BE3D00;
         border: 6px solid #DE6532;
         border-width: 0 0 1px;
         color: white;
@@ -230,7 +230,7 @@
         button[type="submit"] {
           width: 32px;
           height: 38px;
-          background: url(ud-asset-url(search-black.svg)) no-repeat scroll center center transparent;
+          background: url(ud-asset-url('search-black.svg')) no-repeat scroll center center transparent;
           background-size: 28px 28px;
 
           img {
@@ -247,7 +247,7 @@
 
     header.banner {
       .search-toggle {
-        background-image: url(ud-asset-url(search-white.svg));
+        background-image: url(ud-asset-url('search-white.svg'));
         background-position: center center;
         background-repeat: no-repeat;
         background-size: 25px auto;
@@ -262,7 +262,7 @@
      }
 
     html.no-svg, .opera-mini {
-      header.banner .search-toggle { background-image: url(ud-asset-url(img/search-white.png)); }
+      header.banner .search-toggle { background-image: url(ud-asset-url('img/search-white.png')); }
     }
 
     .opera-mini {
