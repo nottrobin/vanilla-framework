@@ -1,0 +1,44 @@
+////
+/// Parameters
+////
+
+@mixin ubuntudesign-forms {
+  $error-color: #df382c;
+
+  form {
+    input,
+    select,
+    textarea {
+      box-sizing: border-box;
+      width: 100%;
+    }
+
+    .fieldset-submit ul {
+      margin-bottom: 0;
+    }
+
+    fieldset {
+      .mktError,
+      .errMsg,
+      .reqMark {
+        color: $error-color;
+      }
+
+      .mktFormMsg {
+        clear: both;
+        display: block;
+      }
+    }
+  }
+
+  @media only screen and (max-width : 768px) {
+
+  } // end @media only screen and (max-width : 768px)
+
+  @media only screen and (min-width : 769px) {
+
+  } // @media only screen and (min-width : 769px)
+
+  @media only screen and (min-width: 984px) {
+  } // end @media only screen and (min-width: 984px)
+}
