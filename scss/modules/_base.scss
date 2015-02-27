@@ -165,7 +165,7 @@ $base-font-size: 14;
   }
 
   html {
-    background: url(ud-asset-url(backgrounds/image-background-paper.png)) repeat-y fixed center top ud-color(white-grey);
+    background: url(ud-asset-url('backgrounds/image-background-paper.png')) repeat-y fixed center top ud-color(white-grey);
     font-size: 100%;
     overflow-y: scroll;
     text-size-adjust: 100%;
@@ -173,7 +173,7 @@ $base-font-size: 14;
   }
 
   body {
-    background: url(ud-asset-url(backgrounds/image-background-paper.png)) repeat-y center top ud-color(white-grey);
+    background: url(ud-asset-url('backgrounds/image-background-paper.png')) repeat-y center top ud-color(white-grey);
     color: #333;
     font-family: Ubuntu, Arial, 'libra sans', sans-serif;
     font-weight: 300;
