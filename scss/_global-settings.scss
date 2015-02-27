@@ -35,18 +35,17 @@ $ubuntudesign-colors: (
 ) !default;
 
 /// Values for the standard grid
-$ubuntudesign-grid-settings: (
-  gutter-width:          20px,
-  gutter-percentage:     2.12766%,
-  one-col-percentage:    6.38297%,
-  two-col-percentage:    14.89361%,
-  three-col-percentage:  23.40425%,
-  four-col-percentage:   31.91489%,
-  five-col-percentage:   40.42553%,
-  six-col-percentage:    48.93617%,
-  seven-col-percentage:  57.4468%,
-  eight-col-percentage:  65.95744%,
-  nine-col-percentage:   74.46808%,
-  ten-col-percentage:    82.97872%,
-  eleven-col-percentage: 91.48936%
-) !default;
+$gutter-width: 20px !default;
+
+/// nav background
+$nav-bg: #f0f0f0 !default;
+/// nav link colour
+$nav-link-color: #333 !default;
+/// nav border dark
+$nav-border-dark: #d4d7d4 !default;
+/// nav border light
+$nav-border-light: #f2f2f4 !default;
+/// nav hover background
+$nav-hover-bg: #d0d0d0 !default;
+/// nav active background
+$nav-active-bg: #ddd !default;

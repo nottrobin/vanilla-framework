@@ -44,6 +44,22 @@
 
 ////
 
+// Properties
+// ===
+
+$gutter-percentage:     2.12766%;
+$one-col-percentage:    6.38297%;
+$two-col-percentage:    14.89361%;
+$three-col-percentage:  23.40425%;
+$four-col-percentage:   31.91489%;
+$five-col-percentage:   40.42553%;
+$six-col-percentage:    48.93617%;
+$seven-col-percentage:  57.4468%;
+$eight-col-percentage:  65.95744%;
+$nine-col-percentage:   74.46808%;
+$ten-col-percentage:    82.97872%;
+$eleven-col-percentage: 91.48936%;
+
 
 @mixin ubuntudesign-grid {
   .fake { 
@@ -72,7 +88,7 @@
     display: inline-block;
     float: none;
     margin-bottom: 20px;
-    margin-right: $gutter;
+    margin-right: $gutter-percentage;
     padding: 0;
     position: relative;
     width: 100%;
@@ -654,29 +670,29 @@
     // Add these to a column to append or prepend
     // empty columns
     // @section empty-columns
-    .append-one { margin-right: $one-col + $gutter; }
-    .append-two { margin-right: $two-col + $gutter; }
-    .append-three { margin-right: $three-col + $gutter; }
-    .append-four { margin-right: $four-col + $gutter; }
-    .append-five { margin-right: $five-col + $gutter; }
-    .append-six { margin-right: $six-col + $gutter; }
-    .append-seven { margin-right: $seven-col + $gutter; }
-    .append-eight { margin-right: $eight-col + $gutter; }
-    .append-nine { margin-right: $nine-col + $gutter; }
-    .append-ten { margin-right: $ten-col + $gutter; }
-    .append-eleven { margin-right: $eleven-col + $gutter; }
+    .append-one { margin-right: $one-col-percentage + $gutter-percentage; }
+    .append-two { margin-right: $two-col-percentage + $gutter-percentage; }
+    .append-three { margin-right: $three-col-percentage + $gutter-percentage; }
+    .append-four { margin-right: $four-col-percentage + $gutter-percentage; }
+    .append-five { margin-right: $five-col-percentage + $gutter-percentage; }
+    .append-six { margin-right: $six-col-percentage + $gutter-percentage; }
+    .append-seven { margin-right: $seven-col-percentage + $gutter-percentage; }
+    .append-eight { margin-right: $eight-col-percentage + $gutter-percentage; }
+    .append-nine { margin-right: $nine-col-percentage + $gutter-percentage; }
+    .append-ten { margin-right: $ten-col-percentage + $gutter-percentage; }
+    .append-eleven { margin-right: $eleven-col-percentage + $gutter-percentage; }
 
-    .prepend-one { margin-left: $one-col + 2.12766%; }
-    .prepend-two { margin-left: $two-col + 2.12766%; }
-    .prepend-three { margin-left: $three-col + 2.12766%; }
-    .prepend-four { margin-left: $four-col + 2.12766%; }
-    .prepend-five { margin-left: $five-col + 2.12766%; }
-    .prepend-six { margin-left: $six-col + $gutter; }
-    .prepend-seven { margin-left: $seven-col + $gutter; }
-    .prepend-eight { margin-left: $eight-col + $gutter; }
-    .prepend-nine { margin-left: $nine-col + $gutter; }
-    .prepend-ten { margin-left: $ten-col + $gutter; }
-    .prepend-eleven { margin-left: $eleven-col + $gutter; }
+    .prepend-one { margin-left: $one-col-percentage + 2.12766%; }
+    .prepend-two { margin-left: $two-col-percentage + 2.12766%; }
+    .prepend-three { margin-left: $three-col-percentage + 2.12766%; }
+    .prepend-four { margin-left: $four-col-percentage + 2.12766%; }
+    .prepend-five { margin-left: $five-col-percentage + 2.12766%; }
+    .prepend-six { margin-left: $six-col-percentage + $gutter-percentage; }
+    .prepend-seven { margin-left: $seven-col-percentage + $gutter-percentage; }
+    .prepend-eight { margin-left: $eight-col-percentage + $gutter-percentage; }
+    .prepend-nine { margin-left: $nine-col-percentage + $gutter-percentage; }
+    .prepend-ten { margin-left: $ten-col-percentage + $gutter-percentage; }
+    .prepend-eleven { margin-left: $eleven-col-percentage + $gutter-percentage; }
 
     .push-one { margin-left: 57px; }
 
@@ -700,17 +716,17 @@
       position: relative;
     }
 
-    .pull-one { margin-left: -$one-col; }
-    .pull-two { margin-left: -($two-col + $gutter); }
-    .pull-three { margin-left: -($three-col + $gutter); }
-    .pull-four { margin-left: -($four-col + $gutter); }
-    .pull-five { margin-left: -($four-col + $gutter); }
-    .pull-six { margin-left: -($six-col + $gutter); }
-    .pull-seven { margin-left: -($seven-col + $gutter); }
-    .pull-eight { margin-left: -($eight-col + $gutter); }
-    .pull-nine { margin-left: -($nine-col + $gutter); }
-    .pull-ten { margin-left: -($ten-col + $gutter); }
-    .pull-eleven { margin-left: -($eleven-col + $gutter); }
+    .pull-one { margin-left: -$one-col-percentage; }
+    .pull-two { margin-left: -($two-col-percentage + $gutter-percentage); }
+    .pull-three { margin-left: -($three-col-percentage + $gutter-percentage); }
+    .pull-four { margin-left: -($four-col-percentage + $gutter-percentage); }
+    .pull-five { margin-left: -($four-col-percentage + $gutter-percentage); }
+    .pull-six { margin-left: -($six-col-percentage + $gutter-percentage); }
+    .pull-seven { margin-left: -($seven-col-percentage + $gutter-percentage); }
+    .pull-eight { margin-left: -($eight-col-percentage + $gutter-percentage); }
+    .pull-nine { margin-left: -($nine-col-percentage + $gutter-percentage); }
+    .pull-ten { margin-left: -($ten-col-percentage + $gutter-percentage); }
+    .pull-eleven { margin-left: -($eleven-col-percentage + $gutter-percentage); }
 
     .push-1, 
     .push-two, 
@@ -727,17 +743,17 @@
       position: relative;
     }
 
-    .push-one { margin: 0 (-($one-col + $gutter)) 0 ($one-col + $gutter); }
-    .push-two { margin: 0 (-($two-col + ($gutter * 2))) 0 ($two-col + ($gutter * 2)); }
-    .push-three { margin: 0 (-($three-col + ($gutter * 2))) 0 ($three-col + ($gutter * 2)); }
-    .push-four { margin: 0 (-($four-col + ($gutter * 2))) 0 ($four-col + ($gutter * 2)); }
-    .push-five { margin: 0 (-($four-col + ($gutter * 2))) 0 ($four-col + ($gutter * 2)); }
-    .push-six { margin: 0 (-($six-col + ($gutter * 2))) 0 ($six-col + ($gutter * 2)); }
-    .push-seven { margin: 0 (-($seven-col + ($gutter * 2))) 0 ($seven-col + ($gutter * 2)); }
-    .push-eight { margin: 0 (-($eight-col + ($gutter * 2))) 0 ($eight-col + ($gutter * 2)); }
-    .push-nine { margin: 0 (-($nine-col + ($gutter * 2))) 0 ($nine-col + ($gutter * 2)); }
-    .push-ten { margin: 0 (-($ten-col + ($gutter * 2))) 0 ($ten-col + ($gutter * 2)); }
-    .push-eleven { margin: 0 (-($eleven-col + ($gutter * 2))) 0 ($eleven-col + ($gutter * 2)); }
+    .push-one { margin: 0 (-($one-col-percentage + $gutter-percentage)) 0 ($one-col-percentage + $gutter-percentage); }
+    .push-two { margin: 0 (-($two-col-percentage + ($gutter-percentage * 2))) 0 ($two-col-percentage + ($gutter-percentage * 2)); }
+    .push-three { margin: 0 (-($three-col-percentage + ($gutter-percentage * 2))) 0 ($three-col-percentage + ($gutter-percentage * 2)); }
+    .push-four { margin: 0 (-($four-col-percentage + ($gutter-percentage * 2))) 0 ($four-col-percentage + ($gutter-percentage * 2)); }
+    .push-five { margin: 0 (-($four-col-percentage + ($gutter-percentage * 2))) 0 ($four-col-percentage + ($gutter-percentage * 2)); }
+    .push-six { margin: 0 (-($six-col-percentage + ($gutter-percentage * 2))) 0 ($six-col-percentage + ($gutter-percentage * 2)); }
+    .push-seven { margin: 0 (-($seven-col-percentage + ($gutter-percentage * 2))) 0 ($seven-col-percentage + ($gutter-percentage * 2)); }
+    .push-eight { margin: 0 (-($eight-col-percentage + ($gutter-percentage * 2))) 0 ($eight-col-percentage + ($gutter-percentage * 2)); }
+    .push-nine { margin: 0 (-($nine-col-percentage + ($gutter-percentage * 2))) 0 ($nine-col-percentage + ($gutter-percentage * 2)); }
+    .push-ten { margin: 0 (-($ten-col-percentage + ($gutter-percentage * 2))) 0 ($ten-col-percentage + ($gutter-percentage * 2)); }
+    .push-eleven { margin: 0 (-($eleven-col-percentage + ($gutter-percentage * 2))) 0 ($eleven-col-percentage + ($gutter-percentage * 2)); }
   }
 
   @media only screen and (min-width: 768px) {
@@ -1292,91 +1308,91 @@
     // @section empty-columns
     
     .append-one { 
-      margin-right: $one-col + $gutter; 
+      margin-right: $one-col-percentage + $gutter-percentage; 
     }
     
     .append-two { 
-      margin-right: $two-col   + $gutter; 
+      margin-right: $two-col-percentage   + $gutter-percentage; 
     }
     
     .append-three { 
-      margin-right: $three-col + $gutter; 
+      margin-right: $three-col-percentage + $gutter-percentage; 
     }
     
     .append-four { 
-      margin-right: $four-col + $gutter; 
+      margin-right: $four-col-percentage + $gutter-percentage; 
     }
     
     .append-five { 
-      margin-right: $five-col + $gutter; 
+      margin-right: $five-col-percentage + $gutter-percentage; 
     }
     
     .append-six { 
-      margin-right: $six-col + $gutter; 
+      margin-right: $six-col-percentage + $gutter-percentage; 
     }
     
     .append-seven { 
-      margin-right: $seven-col + $gutter; 
+      margin-right: $seven-col-percentage + $gutter-percentage; 
     }
     
     .append-eight { 
-      margin-right: $eight-col + $gutter; 
+      margin-right: $eight-col-percentage + $gutter-percentage; 
     }
     
     .append-nine { 
-      margin-right: $nine-col + $gutter; 
+      margin-right: $nine-col-percentage + $gutter-percentage; 
     }
       
     .append-ten { 
-      margin-right: $ten-col + $gutter; 
+      margin-right: $ten-col-percentage + $gutter-percentage; 
     }
     
     .append-eleven { 
-      margin-right: $eleven-col + $gutter;
+      margin-right: $eleven-col-percentage + $gutter-percentage;
     }
     
     .prepend-one { 
-      margin-left: $one-col + 2.12766%; 
+      margin-left: $one-col-percentage + 2.12766%; 
     }
     
     .prepend-two { 
-      margin-left: $two-col   + 2.12766%; 
+      margin-left: $two-col-percentage   + 2.12766%; 
     }
     
     .prepend-three { 
-      margin-left: $three-col + 2.12766%; 
+      margin-left: $three-col-percentage + 2.12766%; 
     }
     
     .prepend-four { 
-      margin-left: $four-col + 2.12766%; 
+      margin-left: $four-col-percentage + 2.12766%; 
     }
     
     .prepend-five { 
-      margin-left: $five-col + 2.12766%; 
+      margin-left: $five-col-percentage + 2.12766%; 
     }
     
     .prepend-six { 
-      margin-left: $six-col + $gutter; 
+      margin-left: $six-col-percentage + $gutter-percentage; 
     }
     
     .prepend-seven { 
-      margin-left: $seven-col + $gutter; 
+      margin-left: $seven-col-percentage + $gutter-percentage; 
     }
     
     .prepend-eight { 
-      margin-left: $eight-col + $gutter; 
+      margin-left: $eight-col-percentage + $gutter-percentage; 
     }
     
     .prepend-nine { 
-      margin-left: $nine-col + $gutter; 
+      margin-left: $nine-col-percentage + $gutter-percentage; 
     }
     
     .prepend-ten { 
-      margin-left: $ten-col + $gutter; 
+      margin-left: $ten-col-percentage + $gutter-percentage; 
     }
     
     .prepend-eleven { 
-      margin-left: $eleven-col + $gutter; 
+      margin-left: $eleven-col-percentage + $gutter-percentage; 
     }
     
     .push-one { 
@@ -1404,47 +1420,47 @@
     }
     
     .pull-one { 
-      margin-left: -$one-col; 
+      margin-left: -$one-col-percentage; 
     }
     
     .pull-two { 
-      margin-left: -($two-col + $gutter); 
+      margin-left: -($two-col-percentage + $gutter-percentage); 
     }
     
     .pull-three { 
-      margin-left: -($three-col + $gutter); 
+      margin-left: -($three-col-percentage + $gutter-percentage); 
     }
       
     .pull-four { 
-      margin-left: -($four-col + $gutter); 
+      margin-left: -($four-col-percentage + $gutter-percentage); 
     }
       
     .pull-five { 
-      margin-left: -($four-col + $gutter); 
+      margin-left: -($four-col-percentage + $gutter-percentage); 
     }
     
     .pull-six { 
-      margin-left: -($six-col + $gutter); 
+      margin-left: -($six-col-percentage + $gutter-percentage); 
     }
       
     .pull-seven { 
-      margin-left: -($seven-col + $gutter); 
+      margin-left: -($seven-col-percentage + $gutter-percentage); 
     }
       
     .pull-eight { 
-      margin-left: -($eight-col + $gutter); 
+      margin-left: -($eight-col-percentage + $gutter-percentage); 
     }
     
     .pull-nine { 
-      margin-left: -($nine-col + $gutter); 
+      margin-left: -($nine-col-percentage + $gutter-percentage); 
     }
     
     .pull-ten { 
-      margin-left: -($ten-col + $gutter); 
+      margin-left: -($ten-col-percentage + $gutter-percentage); 
     }
     
     .pull-eleven { 
-      margin-left: -($eleven-col + $gutter); 
+      margin-left: -($eleven-col-percentage + $gutter-percentage); 
     }
     
     .push-1, 
@@ -1463,47 +1479,47 @@
     }
     
     .push-one { 
-      margin: 0 (-($one-col + $gutter)) 0 ($one-col + $gutter); 
+      margin: 0 (-($one-col-percentage + $gutter-percentage)) 0 ($one-col-percentage + $gutter-percentage); 
     }
     
     .push-two { 
-      margin: 0 (-($two-col   + ($gutter * 2))) 0 ($two-col   + ($gutter * 2)); 
+      margin: 0 (-($two-col-percentage   + ($gutter-percentage * 2))) 0 ($two-col-percentage   + ($gutter-percentage * 2)); 
     }
     
     .push-three { 
-      margin: 0 (-($three-col + ($gutter * 2))) 0 ($three-col + ($gutter * 2)); 
+      margin: 0 (-($three-col-percentage + ($gutter-percentage * 2))) 0 ($three-col-percentage + ($gutter-percentage * 2)); 
     }
     
     .push-four { 
-      margin: 0 (-($four-col + ($gutter * 2))) 0 ($four-col + ($gutter * 2)); 
+      margin: 0 (-($four-col-percentage + ($gutter-percentage * 2))) 0 ($four-col-percentage + ($gutter-percentage * 2)); 
     }
     
     .push-five { 
-      margin: 0 (-($five-col + ($gutter * 2))) 0 ($five-col + ($gutter * 2)); 
+      margin: 0 (-($five-col-percentage + ($gutter-percentage * 2))) 0 ($five-col-percentage + ($gutter-percentage * 2)); 
     }
     
     .push-six { 
-      margin: 0 (-($six-col + ($gutter * 2))) 0 ($six-col + ($gutter * 2)); 
+      margin: 0 (-($six-col-percentage + ($gutter-percentage * 2))) 0 ($six-col-percentage + ($gutter-percentage * 2)); 
     }
     
     .push-seven { 
-      margin: 0 (-($seven-col + ($gutter * 2))) 0 ($seven-col + ($gutter * 2)); 
+      margin: 0 (-($seven-col-percentage + ($gutter-percentage * 2))) 0 ($seven-col-percentage + ($gutter-percentage * 2)); 
     }
     
     .push-eight { 
-      margin: 0 (-($eight-col + ($gutter * 2))) 0 ($eight-col + ($gutter * 2)); 
+      margin: 0 (-($eight-col-percentage + ($gutter-percentage * 2))) 0 ($eight-col-percentage + ($gutter-percentage * 2)); 
     }
     
     .push-nine { 
-      margin: 0 (-($nine-col + ($gutter * 2))) 0 ($nine-col + ($gutter * 2)); 
+      margin: 0 (-($nine-col-percentage + ($gutter-percentage * 2))) 0 ($nine-col-percentage + ($gutter-percentage * 2)); 
     }
     
     .push-ten { 
-      margin: 0 (-($ten-col + ($gutter * 2))) 0 ($ten-col + ($gutter * 2)); 
+      margin: 0 (-($ten-col-percentage + ($gutter-percentage * 2))) 0 ($ten-col-percentage + ($gutter-percentage * 2)); 
     }
     
     .push-eleven { 
-      margin: 0 (-($eleven-col + ($gutter * 2))) 0 ($eleven-col + ($gutter * 2)); 
+      margin: 0 (-($eleven-col-percentage + ($gutter-percentage * 2))) 0 ($eleven-col-percentage + ($gutter-percentage * 2)); 
     }
     
   }

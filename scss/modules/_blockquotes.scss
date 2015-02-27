@@ -161,7 +161,7 @@
 
     .quote-twitter {
       background: #fcece7 url(ud-asset-url(pictograms/pictogram-twitter-115x139.png)) $gutter-width bottom no-repeat;
-      padding: $gutter-width $gutter-width $gutter-width $three-col;
+      padding: $gutter-width $gutter-width $gutter-width ud-grid-setting(three-col-percentage);
     }
 
     .quote-twitter-small {
