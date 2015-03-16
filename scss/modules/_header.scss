@@ -1,8 +1,8 @@
 @import 'helpers/all';
 
-$nav-box-shadow-color: #777777;
-$nav-border-color: #d5d5d5;
-$nav-hover-border-left: #ec5B29;
+$nav-box-shadow-color: #777777 !default;
+$nav-border-color: #d5d5d5 !default;
+$nav-hover-border-left: #ec5B29 !default;
 
 @mixin ubuntudesign-header {
   .banner {
