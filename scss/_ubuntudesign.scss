@@ -30,27 +30,29 @@
 @import 'modules/print';
 
 /// Include all the CSS
-@include ubuntudesign-base;
-@include ubuntudesign-grid;
-@include ubuntudesign-templates;
-@include ubuntudesign-structure;
-@include ubuntudesign-helper-classes;
-@include ubuntudesign-typography;
-@include ubuntudesign-header;
-@include ubuntudesign-search;
-@include ubuntudesign-footer;
-@include ubuntudesign-contextual-footer;
-@include ubuntudesign-buttons;
-@include ubuntudesign-forms;
-@include ubuntudesign-rows;
-@include ubuntudesign-images;
-@include ubuntudesign-boxes;
-@include ubuntudesign-arrows;
-@include ubuntudesign-lists;
-@include ubuntudesign-inline-logos;
-@include ubuntudesign-blockquotes;
-@include ubuntudesign-tabbed-content;
-@include ubuntudesign-vertical-divider;
-@include ubuntudesign-slider;
-@include ubuntudesign-tooltips;
-@include ubuntudesign-print;
+@mixin ubuntudesign {
+  @include ubuntudesign-base;
+  @include ubuntudesign-grid;
+  @include ubuntudesign-templates;
+  @include ubuntudesign-structure;
+  @include ubuntudesign-helper-classes;
+  @include ubuntudesign-typography;
+  @include ubuntudesign-header;
+  @include ubuntudesign-search;
+  @include ubuntudesign-footer;
+  @include ubuntudesign-contextual-footer;
+  @include ubuntudesign-buttons;
+  @include ubuntudesign-forms;
+  @include ubuntudesign-rows;
+  @include ubuntudesign-images;
+  @include ubuntudesign-boxes;
+  @include ubuntudesign-arrows;
+  @include ubuntudesign-lists;
+  @include ubuntudesign-inline-logos;
+  @include ubuntudesign-blockquotes;
+  @include ubuntudesign-tabbed-content;
+  @include ubuntudesign-vertical-divider;
+  @include ubuntudesign-slider;
+  @include ubuntudesign-tooltips;
+  @include ubuntudesign-print;
+}
