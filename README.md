@@ -21,6 +21,12 @@ On [the project homepage](http://ubuntudesign.github.io/vanilla-framework), find
 <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-x.x.x.min.css" />
 ```
 
+``` yaml
+hooks: # Top-level YAML attribute, parallel to `apps`
+    upgrade: # Hook name, corresponds to executable name
+        plugs: [network] # Or any other plugs required by this hook
+```
+
 ## Local usage
 
 Install all the dependancies for vanilla framework project:
