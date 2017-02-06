@@ -27,6 +27,24 @@ hooks: # Top-level YAML attribute, parallel to `apps`
         plugs: [network] # Or any other plugs required by this hook
 ```
 
+``` python
+from fish.chips import MyLunch
+
+class SomeClass:
+  arg_one: "hello"
+
+  def a_method(argument, argument2=value):
+    """
+    Docstring
+    """
+
+    variable = "string"
+    another = 123
+
+    if some_condition >= 20 and x == y:
+      print "go away"
+```
+
 ## Local usage
 
 Install all the dependancies for vanilla framework project:
